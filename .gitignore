@@ -1,0 +1,30 @@
+# ===============================
+# 🔧 Core: Build + Dependencies
+# ===============================
+node_modules/
+dist/
+css/
+.vite/
+*.css.map
+*.log
+*.tmp
+
+# ===============================
+# 💻 Editor & OS
+# ===============================
+.DS_Store
+.vscode/
+
+# ===============================
+# 🔒 Lock Files (if not shared)
+# ===============================
+# Uncomment if you want to ignore lockfile:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===============================
+# 🧪 Test Artifacts (if added later)
+# ===============================
+coverage/
+*.test.*
