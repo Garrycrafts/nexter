@@ -1,1 +1,1 @@
-import "/nexter/sass/main.scss";
+import "./sass/main.scss";

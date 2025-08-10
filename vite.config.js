@@ -4,8 +4,8 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@use "sass/base" as *;`,
-        includePaths: ["nexter"],
+        additionalData: `@use "base" as *;`,
+        includePaths: ["sass"],
       },
     },
   },

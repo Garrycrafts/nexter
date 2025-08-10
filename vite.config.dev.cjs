@@ -3,7 +3,8 @@ const { defineConfig } = require("vite");
 module.exports = defineConfig({
   css: {
     preprocessorOptions: {
-      scss: { additionalData: `@use "@/sass/base/base" as *;` },
+      scss: { additionalData: `@use "base" as *;` },
+      includePaths: ["sass"],
     },
   },
   build: {
