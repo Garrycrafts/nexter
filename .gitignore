@@ -8,17 +8,23 @@ css/
 *.css.map
 *.log
 *.tmp
+.cache/
+out/
+*.min.css
+*.min.js
 
 # ===============================
 # 💻 Editor & OS
 # ===============================
 .DS_Store
 .vscode/
+Thumbs.db
+ehthumbs.db
+Icon?
 
 # ===============================
 # 🔒 Lock Files (if not shared)
 # ===============================
-# Uncomment if you want to ignore lockfile:
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
@@ -28,3 +34,14 @@ css/
 # ===============================
 coverage/
 *.test.*
+
+# ===============================
+# 🖌 Sass Cache
+# ===============================
+.sass-cache/
+
+# ===============================
+# 🔐 Environment
+# ===============================
+.env
+.env.*.local
